@@ -5,30 +5,32 @@ body {
 h1 {
     
   font-family: "Ballet", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: red;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  color: white;
   text-align: center;
-
-}
-li{
-    background-color: black;
-    display: inline-block;
-    width: 16.6%;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    padding: 0px;
-
+  background-color: black;
 
 }
 ol {
 font-size: 0%;
 padding: 0%;
-margin-top: 10px;
+margin-top: 0px;
+border: 3px solid black;
 }
+li{
+    background-color: white;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+    color: black;
 
+}
 h2{
     color:blue;
     text-align:right;
