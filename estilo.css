@@ -23,13 +23,21 @@ border: 3px solid black;
 li{
     background-color: white;
     display: inline-block;
-    width: 20%;
+    width: 19.78%;
     text-align: center;
     color: white;
     font-size: 16px;
     padding: 0px;
     color: black;
-
+    border-right: 2px solid black;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li:hover{
+    background-color: rgb(155, 95, 155);
+    color: white;
 }
 h2{
     color:blue;
