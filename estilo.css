@@ -1,6 +1,8 @@
 body {
-      margin: 0;
+      margin: auto;
       padding: 0;
+      border: solid black 2px;
+      width: 80%;
     }
 h1 {
     
@@ -13,6 +15,14 @@ h1 {
   text-align: center;
   background-color: black;
 
+}
+#logo {
+    margin-top: 0;
+}
+#logosesion{
+    border: 2px solid white;
+    margin-top: 0;
+    float: left;
 }
 ol {
 font-size: 0%;
@@ -30,62 +40,42 @@ li{
     padding: 0px;
     color: black;
     border-right: 2px solid black;
+    border-top: 2px solid red;
 }
 a {
   color: inherit;
   text-decoration: none;
 }
 li:hover{
-    background-color: rgb(155, 95, 155);
+    background-color: rgb(231, 28, 28);
     color: white;
 }
 h2{
-    color:blue;
-    text-align:right;
+    color:red;
+    text-align:center;
     font-size:16px;
-    border: 10px dashed blue;
-    border-bottom: 1px solid red;
+    text-decoration: underline 3px dashed red;
 }
-h3{
-    border-bottom: 1px solid red;
-
-
-
-
+#seccion1{
+    font-size: 18px;
+    margin: 30px;   
 }
-main{
-    color: burlywood;
-
-
-
+#primeraparte{
+    text-decoration: overline underline 3px dashed black;
+    color: red;
 }
 p{
     color: black;
-
-
-
-}
-h2#seccion1{
-
-    color: green;
-
-
 }
 p.parrafoNormal{
     color: bisque;
     font-size: 20px;
 }
-
-
-
-h2#seccion1{
-
-    color: green;
-
-
-}
-p.parrafoNormal{
-    color: bisque;
-    font-size: 20px;
-
+footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+  font-size: 13px;
 }
