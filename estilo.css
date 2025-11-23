@@ -7,10 +7,10 @@ body {
 h1 {
     
   font-family: "Ballet", cursive;
-    font-weight: 400;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
   color: white;
   text-align: center;
   background-color: black;
@@ -25,19 +25,20 @@ h1 {
     float: left;
 }
 ol {
-font-size: 0%;
-padding: 0%;
+font-size: 0;
+padding: 0;
 margin-top: 0px;
 border: 3px solid black;
 }
 li{
+    box-sizing: border-box;
     background-color: white;
     display: inline-block;
-    width: 19.78%;
+    width: 25%;
     text-align: center;
     color: white;
     font-size: 16px;
-    padding: 0px;
+    padding: 0;
     color: black;
     border-right: 2px solid black;
     border-top: 2px solid red;
@@ -67,11 +68,12 @@ h2{
 p{
     color: black;
 }
-p.parrafoNormal{
-    color: bisque;
-    font-size: 20px;
+#inazuma{
+    width: 200px;
+
 }
 footer{
+  box-sizing: border-box;
   color: white;
   background-color: black;
   text-align: center;
