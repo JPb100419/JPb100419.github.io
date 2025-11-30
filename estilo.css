@@ -46,6 +46,7 @@ li{
 a {
   color: inherit;
   text-decoration: none;
+  
 }
 li:hover{
     background-color: rgb(231, 28, 28);
@@ -59,7 +60,7 @@ h2{
 }
 #seccion1{
     font-size: 18px;
-    margin: 30px;   
+    margin: 30px;
 }
 #primeraparte{
     text-decoration: overline underline 3px dashed black;
@@ -68,9 +69,16 @@ h2{
 p{
     color: black;
 }
+#Recientes{
+      display: flex;
+    gap: 10px;
+}
 #inazuma{
     width: 200px;
 
+}
+#silksong{
+    width: 200px;
 }
 footer{
   box-sizing: border-box;
