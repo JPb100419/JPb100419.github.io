@@ -66,12 +66,27 @@ h2{
     text-decoration: overline underline 3px dashed black;
     color: red;
 }
-p{
-    color: black;
+#Recientes1{
+    display: inline-block;
 }
-#Recientes{
-      display: flex;
-    gap: 10px;
+#Recientes2{
+    display: inline-block;
+}
+#InazumaTitulo{
+    color: black;
+    margin-right: 30px;
+}
+#SilksongTitulo{
+    color: black;
+    margin-right: 30px;
+}
+#ARCTitulo{
+    color: black;
+    margin-right: 30px;
+}
+#ExpeditionTitulo{
+    color: black;
+    margin-right: 30px;
 }
 #inazuma{
     width: 200px;
@@ -79,6 +94,15 @@ p{
 }
 #silksong{
     width: 200px;
+}
+#ARCRaiders{
+    width: 200px;
+}
+h3{
+    color:red;
+    text-align:center;
+    font-size:16px;
+    text-decoration: underline 3px dashed red;
 }
 footer{
   box-sizing: border-box;
