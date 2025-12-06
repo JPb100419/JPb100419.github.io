@@ -1,0 +1,53 @@
+body {
+      margin: auto;
+      padding: 0;
+      border: solid black 2px;
+      width: 80%;
+    }
+h1 {
+    
+  font-family: "Ballet", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+
+}
+#logo {
+    margin-top: 0;
+}
+#logosesion{
+    border: 2px solid white;
+    margin-top: 0;
+    float: left;
+}
+section{
+    text-align: center;
+}
+form{
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+fieldset{
+    background: white;
+}
+label{
+    color:red;
+}
+legend{
+    color: red;
+}
+input{
+    display: block;
+}
+button {
+    background: black;
+    border: none;
+    padding: 10px 20px;
+    color: red;
+    cursor: pointer;
+}
