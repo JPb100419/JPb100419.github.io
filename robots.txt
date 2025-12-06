@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+User-agent: Googlebot
+Allow: /publico/
+Disallow: /admin/
+User-agent: Bingbot
+Disallow: /*?sessionid=
+Disallow: /*.ppt$
+Sitemap: https://jpb100419.github.io//sitemap.xml
