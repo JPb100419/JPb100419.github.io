@@ -1,0 +1,39 @@
+body {
+      margin: auto;
+      padding: 0;
+      border: solid black 2px;
+      width: 80%;
+    }
+h1 {
+    
+  font-family: "Ballet", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+
+}
+#logo {
+    margin-top: 0;
+}
+#logosesion{
+    border: 2px solid white;
+    margin-top: 0;
+    float: left;
+}
+h2{
+    color:red;
+    text-align:center;
+    font-size:16px;
+    text-decoration: underline 3px dashed red;
+}
+section{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-decoration: underline 2px solid red;
+
+}
