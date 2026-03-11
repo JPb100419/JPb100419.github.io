@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cartapokemon</title>
+<style>
+body{
+    background:white;
+}
+
+body div:nth-child(1){
+    width:250px;
+    height:350px;
+    margin:100px auto;
+    position:relative;
+    perspective:1000px;
+}
+
+body img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    backface-visibility:hidden;
+    transition:transform 0.8s;
+}
+
+body img:nth-child(2){
+    transform:rotateY(180deg);
+}
+
+body div:nth-child(1):hover img:nth-child(1){
+    transform:rotateY(180deg);
+}
+
+body div:nth-child(1):hover img:nth-child(2){
+    transform:rotateY(380deg);
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div>
+    <img src="imagenes/gardevoir.png" alt="gardevoir">
+    <img src="imagenes/atras.png" alt="atrascarta">
+</div>
+
+</body>
+</html>
