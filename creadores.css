@@ -37,3 +37,33 @@ section{
     text-decoration: underline 2px solid red;
 
 }
+#creadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.creador {
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+}
+
+
+.creador img {
+    width: 100%;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+
+
+.creador p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.solo {
+    width: 60%;
+}

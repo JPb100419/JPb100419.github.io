@@ -37,3 +37,31 @@ section{
     text-decoration: underline 2px solid red;
 
 }
+#juegoses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.juego {
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+}
+
+
+.juego img {
+    width: 100%;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+
+.juego p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.solo {
+    width: 60%;
+}

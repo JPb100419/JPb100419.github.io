@@ -37,3 +37,29 @@ section{
     text-decoration: underline 2px solid red;
 
 }
+.articulo-espanol {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.articulo-espanol img {
+    width: 100%;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+
+.articulo-espanol p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.texto-largo {
+    width: 80%;
+}
+#blasphemous{
+    width: 500px;
+}
+#gris{
+    width: 600px;
+}
