@@ -3,9 +3,9 @@ body {
       padding: 0;
       border: solid black 2px;
       width: 80%;
-    }
+      box-sizing: border-box;
+}
 h1 {
-    
   font-family: "Ballet", cursive;
   font-weight: 400;
   font-size: 24px;
@@ -14,7 +14,6 @@ h1 {
   color: white;
   text-align: center;
   background-color: black;
-
 }
 #logo {
     margin-top: 0;
@@ -29,101 +28,69 @@ font-size: 0;
 padding: 0;
 margin-top: 0px;
 border: 3px solid black;
+display: flex;
 }
 li{
     box-sizing: border-box;
     background-color: white;
     display: inline-block;
-    width: 25%;
+    flex-grow: 1;
     text-align: center;
-    color: white;
-    font-size: 16px;
-    padding: 0;
     color: black;
+    font-size: 16px;
+    padding: 10px 0;
     border-right: 2px solid black;
     border-top: 2px solid red;
+    list-style: none;
 }
 a {
   color: inherit;
   text-decoration: none;
-  
 }
 li:hover{
     background-color: rgb(231, 28, 28);
     color: white;
 }
-h2{
+h2, h3, h4, h5, h6 {
     color:red;
     text-align:center;
     font-size:16px;
     text-decoration: underline 3px dashed red;
 }
 
-dl{
+
+.seccion-contenedor {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.juegos {
     padding: 10px;
-
-}
-#seccion1{
-    box-sizing: border-box;
-    display: flex;
-    padding: 20px;
-    padding-left: 70px;
-}
-#seccion2{
-    box-sizing: border-box;
-    display: flex;
-    padding: 20px;
-    padding-left: 70px;
-}
-#seccion3{
-    box-sizing: border-box;
-    display: flex;
-    padding: 20px;
-    padding-left: 70px;
-}
-#seccion4{
-    box-sizing: border-box;
-    display: flex;
-    padding: 20px;
-    padding-left: 70px;
-}
-#juegos{
-    padding-right: 4%;
-}
-#portada{
     width: 225px;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.portada {
+    width: 100%; 
+    max-width: 225px;
+    height: auto;
     border: 2px solid red;
+    display: block;
+    margin: 0 auto;
 }
-h3{
-    color:red;
-    text-align:center;
-    font-size:16px;
-    text-decoration: underline 3px dashed red;
-}
-h4{
-    color:red;
-    text-align:center;
-    font-size:16px;
-    text-decoration: underline 3px dashed red;
-}
-h5{
-    color:red;
-    text-align:center;
-    font-size:16px;
-    text-decoration: underline 3px dashed red;
-}
-h6{
-    color:red;
-    text-align:center;
-    font-size:16px;
-    text-decoration: underline 3px dashed red;
-}
-footer{
+
+footer {
   box-sizing: border-box;
   color: white;
   background-color: black;
   text-align: center;
-  padding: 0px;
+  padding: 10px 0;
   margin: auto;
   font-size: 13px;
 }
