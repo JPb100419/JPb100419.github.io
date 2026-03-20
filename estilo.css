@@ -94,3 +94,18 @@ footer {
   margin: auto;
   font-size: 13px;
 }
+@media (max-width: 651px) {
+    ol {
+        flex-direction: column; 
+    }
+
+    li {
+        border-right: none;     
+        border-bottom: 1px solid black; 
+        width: 100%;           
+    }
+
+    li:last-child {
+        border-bottom: none;     
+    }
+}
