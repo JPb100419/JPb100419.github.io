@@ -1,96 +1,131 @@
 body {
-      margin: auto;
-      padding: 0;
-      border: solid black 2px;
-      width: 80%;
-      box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  border: solid black 2px;
+  width: 95%;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
+
 h1 {
   font-family: "Ballet", cursive;
   font-weight: 400;
   font-size: 24px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   color: white;
   text-align: center;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
+
 #logo {
-    margin-top: 0;
+  margin-top: 0;
 }
-#logosesion{
-    border: 2px solid white;
-    margin-top: 0;
-    float: left;
+
+#logosesion {
+  border: 1px solid white;
+  margin-top: 0;
+  float: left;
 }
-ol {
-font-size: 0;
-padding: 0;
-margin-top: 0px;
-border: 3px solid black;
-display: flex;
+
+ol.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 2px solid black;
 }
-li{
-    box-sizing: border-box;
-    background-color: white;
-    display: inline-block;
-    flex-grow: 1;
-    text-align: center;
-    color: black;
-    font-size: 16px;
-    padding: 10px 0;
-    border-right: 2px solid black;
-    border-top: 2px solid red;
-    list-style: none;
+
+ol.menu-nav li {
+  flex: 1 1 50%;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 5px;
+  border: 1px solid black;
 }
+
+li:hover {
+  background-color: rgb(231, 28, 28);
+  color: white;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
-li:hover{
-    background-color: rgb(231, 28, 28);
-    color: white;
-}
-h2, h3, h4, h5, h6 {
-    color:red;
-    text-align:center;
-    font-size:16px;
-    text-decoration: underline 3px dashed red;
-}
 
+h2, h3, h4, h5, h6 {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: underline 3px dashed red;
+  margin: 20px 0;
+}
 
 .seccion-contenedor {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    padding: 20px;
-    gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
 }
 
 .juegos {
-    padding: 10px;
-    width: 225px;
-    max-width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .portada {
-    width: 100%; 
-    max-width: 225px;
-    height: auto;
-    border: 2px solid red;
-    display: block;
-    margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border: 2px solid red;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.texto-juego {
+  font-size: 14px;
+  display: block;
+  text-align: justify;
 }
 
 footer {
-  box-sizing: border-box;
-  color: white;
   background-color: black;
-  text-align: center;
+  color: white;
   padding: 10px 0;
-  margin: auto;
-  font-size: 13px;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 80%;
+  }
+  
+  ol.menu-nav li {
+    flex: 1;
+    font-size: 16px;
+  }
+
+  .juegos {
+    width: 30%;
+  }
 }
