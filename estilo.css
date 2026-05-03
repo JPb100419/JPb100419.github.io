@@ -40,7 +40,7 @@ li{
     font-size: 16px;
     padding: 10px 0;
     border-right: 2px solid black;
-    border-top: 2px solid #b30000; /* cambiado */
+    border-top: 2px solid #b30000; 
     list-style: none;
 }
 a {
@@ -48,14 +48,14 @@ a {
   text-decoration: none;
 }
 li:hover{
-    background-color: #b30000; /* cambiado */
+    background-color: #b30000;
     color: white;
 }
 h2, h3, h4, h5, h6 {
-    color:#b30000; /* cambiado */
+    color:#b30000;
     text-align:center;
     font-size:16px;
-    text-decoration: underline 3px dashed #b30000; /* cambiado */
+    text-decoration: underline 3px dashed #b30000; 
 }
 
 
@@ -80,7 +80,7 @@ h2, h3, h4, h5, h6 {
     width: 100%; 
     max-width: 225px;
     height: auto;
-    border: 2px solid #b30000; /* cambiado */
+    border: 2px solid #b30000; 
     display: block;
     margin: 0 auto;
 }
